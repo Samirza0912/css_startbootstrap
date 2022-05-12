@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(33, 37, 41);
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.logo {
+    margin-left: 120px;
+}
+
+.logotitle {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-bar {
+    margin-right: 80px;
+}
+
+.nav-links {
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    color: gray;
+    text-decoration: none;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.nav-link:hover{
+    color: #1abc9c;
+}
+
+.nav-link:nth-child(3){
+    margin-right: 0;
+}
+#info{
+    background-color: rgb(33, 37, 41);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.infosec{
+    display: flex;
+    flex-direction: row;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 80px;
+}
+.infotext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infoimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.start{
+    font-size: 53px;
+    color: white;
+}
+.mid{
+    font-size: 23px;
+    color: gray;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.getst{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.learn{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(33, 37, 41);
+    color: white;
+    margin-left: 20px;
+}
+#context{
+    height: 600px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 70px;
+}
+.firstrow{
+    display: flex;
+    flex-direction: row;
+}
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+.divbet h1{
+    font-size: 33px;
+}
+.featuredtitle{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+#subinfo{
+    background-color: #adb5bd;
+    height: 300px;
+    text-align: center;
+    font-size: 22px;
+}
+.text{
+    padding-top: 70px;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+.cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: red;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  .cardsec{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  #ending{
+      margin-top: 50px;
+  }
+  .endingtitle h1{
+      text-align: center;
+  }
+  .endingtitle h3{
+font-size: 20px;
+color: gray;
+text-align: center;
+  }
+.products{
+    height: 250px;
+    background-color: blue;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+   text-align: center;
+}
